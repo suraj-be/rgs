@@ -1,0 +1,34 @@
+> React is a JS Library for building User Interfaces.
+> React is declarative.
+  - HTML: Declarative for static content.
+  - React: Declarative for dynamic data.
+
+Why React?
+- The "Virtual DOM" vs the "DOM API".
+- Just JavaScript, as the author said, React is a small library, it will be your JS skills that's gonna take you furthur.
+- Declarative language(model and UI state) - This is the one thing that made React popular.
+
+- In React applications, you don't write HTML, you only write JS. JSX is not HTML.
+
+------------ React basic info ------------
+- A component name must start with a capital letter, for example, 'Logger'. If not done this way, React thinks that the provided name is an HTML element.
+- Initially in this course, jscomplete.com's playround is used to code. This is the url: https://jscomplete.com/playground
+- The good thing about this playground is that both the latest version of React and ReactDOM is preloaded.
+
+------------ First React Hook ------------
+- useState() results:
+  a) state object(getter) - State object can be of any type you wish it to be, it can be a string, an array, or a number.
+  b) updater function(setter)
+
+- useState() returns an array with 2 elements.
+
+- The argument to useState is the initial value for the state object('counter' in our case)
+
+- const [counter, setCounter] = useState(0);
+  - This syntax is 'Array Destructuring'
+
+- onClick={functionRef}: onClick attribute is case-sensitive, it has to be 'Camel Cased'. This attribute expects a 'Function Reference'.
+
+- onClick={functionRef()}: Function invocation will not work inside this curly brace, Just pass the function pointer.
+
+- useState() is a hook.
